@@ -1,0 +1,29 @@
+{
+    "repositories": [
+      {
+        "type": "package",
+        "package": {
+          "name": "twitter/bootstrap",
+          "version": "dev-master",
+          "source": {
+            "url": "git://github.com/twitter/bootstrap",
+            "type": "git",
+            "reference": "master"
+          },
+          "require": {
+            "composer/installers": "*"
+          }
+        },
+        "packagist": false
+      }
+    ],
+    "config": {
+        "vendor-dir": "Vendor"
+    },
+    "require": {
+        "mjohnson/uploader": "4.*",
+        "aws/aws-sdk-php": "2.*",
+        "twitter/bootstrap": "dev-master",
+        "slywalker/twitter_bootstrap": "dev-master"
+    }
+}
